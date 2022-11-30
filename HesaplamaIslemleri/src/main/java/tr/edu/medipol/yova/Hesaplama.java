@@ -5,14 +5,14 @@ public class Hesaplama {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Hesaplama h = new Hesaplama();
-		long topla = h.toplama(42, 28);
-		int cikar = h.cikarma(33, 2);
-		int carp = h.carpma(50, 2);
-		int bol = h.bolme(20, 4);
-		System.out.println(topla);
-		System.out.println(cikar);
-		System.out.println(carp);
-		System.out.println(bol);
+		long toplama = h.toplama(42, 28);
+		long cikarma = h.cikarma(33, 2);
+		long carpma = h.carpma(50, 2);
+		long bolme = h.bolme(20, 4);
+		System.out.println(toplama);
+		System.out.println(cikarma);
+		System.out.println(carpma);
+		System.out.println(bolme);
 		
 	}
 	
